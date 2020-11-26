@@ -4,6 +4,7 @@
 [ext_resource path="res://fps_monsters_sprites.png" type="Texture" id=2]
 
 [sub_resource type="CapsuleShape" id=1]
+height = 1.06001
 
 [sub_resource type="Animation" id=2]
 resource_name = "die"
@@ -44,7 +45,7 @@ tracks/0/keys = {
 script = ExtResource( 1 )
 
 [node name="CollisionShape" type="CollisionShape" parent="."]
-transform = Transform( 1, 0, 0, 0, -1.62921e-07, -1, 0, 1, -1.62921e-07, 0, 0, 0 )
+transform = Transform( 0.809516, 0, 0, 0, -1.24617e-07, -0.76489, 0, 1, -1.62921e-07, 0, -0.1392, 0 )
 shape = SubResource( 1 )
 
 [node name="RayCast" type="RayCast" parent="."]
